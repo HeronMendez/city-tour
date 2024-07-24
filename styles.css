@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  width: 100px;
+}
+
+#hero_section {
+  height: 350px;
+  width: auto;
+  margin: 0;
+  background: url(./images/tampico.png);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  background-color: #1d3557;
+  margin: 10px 0;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 1em;
+  color: white;
+  background-color: #457b9d;
+  max-width: 500px;
+  margin: 0;
+  padding: 5px;
+  border-radius: 8px;
+  font-weight: lighter;
+  border: 2px solid #1d3557;
+}
+
+#activities_section {
+  height: 350px;
+  width: auto;
+  background: #F1FAEE;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
