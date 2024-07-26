@@ -22,8 +22,9 @@ img {
 }
 
 h1 {
-  color: white;
-  background-color: #1d3557;
+  color: #553c20;
+  background-color: #f3dca7;
+  box-shadow: 0 0 10px #1d3557;
   margin: 10px 0;
   padding: 5px 10px;
   border-radius: 8px;
@@ -31,8 +32,8 @@ h1 {
 
 h2 {
   font-size: 1em;
-  color: white;
-  background-color: #457b9d;
+  color: #f3dca7;
+  background-color: #616d7a;
   max-width: 500px;
   margin: 0;
   padding: 5px;
@@ -44,7 +45,8 @@ h2 {
 #activities_section {
   height: 350px;
   width: auto;
-  background: #f1faee;
+  color: #faf3e3;
+  background: #775e40;
   margin: 0;
   padding-top: 25px;
   display: flex;
@@ -68,8 +70,52 @@ h2 {
 
 .activity_box img {
   border-radius: 50%;
+  box-shadow: 1px 2px 15px #1d3557;
 }
 
 .bold {
   font-weight: bold;
+}
+
+#guide_section {
+  height: 350px;
+  width: auto;
+  background-color: #827c73;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guide_card {
+  height: 70%;
+  width: 450px;
+  padding: 20px 10px;
+  box-shadow: 0 6px 15px #1d3557;
+  border-radius: 10px;
+  color: #f3dca7;
+  background: #616d7a;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.guide_info {
+  width: 45%;
+  height: auto;
+}
+
+.guide_info h3 {
+  font-size: 1.5em;
+}
+
+.guide_info p {
+  font-style: italic;
+}
+
+.guide_img {
+  width: 45%;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
 }
